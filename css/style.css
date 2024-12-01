@@ -1,0 +1,171 @@
+:root{
+    --head-font: "Dancing Script", cursive;
+    --par-font: "Edu AU VIC WA NT Pre", serif;
+    --main-color: #984d10;
+}
+body{
+    
+    margin: 0;
+}
+
+.home{
+    background-color: black;
+    height: 100vh; /* View Port Height*/
+    text-align: center;
+}
+
+.caption h1{
+    font-family: "Dancing Script", cursive;
+    font-weight: bolder;
+    color: #f4ddb3;
+    font-size: 35px;
+}
+.caption img{
+    margin-top: 30px;
+    border-radius: 30px;
+}
+.caption p{
+    font-family: Abril;
+    color: white;
+}
+
+.caption button {
+    border-radius: 8px;
+    height: 28px;
+    width: 100px;
+}
+
+.caption button:hover{
+    height: 32px;
+    background-color: #f4ddb3;
+    color: black;
+    width: 110px;
+}
+.fa-brands{
+    color: white;
+}
+.icons{
+    margin-top: 10px;
+
+}
+.fa-brands{
+    margin-right: 5px;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 5px;
+}
+.fa-brands:hover{
+    background-color:#f4ddb3;
+    color: black;
+    
+}
+
+.aboutus{
+    background-color: beige;
+    margin-top: 20px;
+}
+.aboutus .container{
+    display: flex;
+}
+
+.aboutus h2{
+    font-family: "Dancing Script", cursive;
+    color: #984d10;
+    text-decoration: underline;
+    
+
+}
+
+.aboutus .container .img img{
+    width: 300px;
+}
+
+
+
+
+
+
+h2{
+    text-align: center;
+    color: var(--main-color);
+    font-size: 30px;
+    font-family: var(--head-font);
+    text-decoration: underline;
+
+}
+.order .container{
+    /* margin: 20px; */
+    display: flex;
+    text-align: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.plImg img{
+    width: 85%;
+    
+   
+    
+}
+.plant h3{
+    color: var(--main-color);
+}
+.plant{
+    width: 24%;
+    margin-right: 10px;
+    
+    
+}
+
+.order h2{
+    font-family: var(--head-font);
+    color: var(--main-color);
+
+}
+
+@media screen and (max-width: 600px) {
+    
+    .container{
+        display: block;
+        width: 100%;
+        
+    }
+    .plant{
+        width: 100%;
+    }
+    
+}
+@media screen and (min-width: 601px) and (max-width: 768px) {
+   
+    
+    .plant{
+        width: 50%;
+    }
+    
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    
+    .plant{
+        width: 33.3333%;
+    }
+    
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    
+    .plant{
+        width: 25%;
+    }
+    
+}
+
+
+.foot{
+    background-color: black;
+    padding: 0.1rem;
+    color: white;
+    text-align: center;
+   margin:auto
+}
+
+
+  
